@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LFUIKit_Example' do
+  pod 'LFUIKit', :path => '../'
+
+  target 'LFUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
