@@ -16,17 +16,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 //是否是X系列手机
 @property (nonatomic,assign,readonly) BOOL iPhoneX;
+
 //X系列底部安全区
 @property (nonatomic,assign,readonly) CGFloat BOTTOM_SAFE_HEIGHT;
+
 //状态栏高度
 @property (nonatomic,assign,readonly) CGFloat STATUS_HEIGHT;
+
 //导航栏高度 兼容X系列手机
 @property (nonatomic,assign,readonly) CGFloat NAV_HEIGHT;
+
 //Tabbar高度 兼容X系列手机
 @property (nonatomic,assign,readonly) CGFloat TABBAR_HEIGHT;
 
 //导航栏高度 不兼容X系列手机
 @property (nonatomic,assign,readonly) CGFloat ONLY_NAV_HEIGHT;
+
 //Tabbar高度 不兼容X系列手机
 @property (nonatomic,assign,readonly) CGFloat ONLY_TABBAR_HEIGHT;
 
@@ -34,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign,readonly) CGFloat SCREEN_WIDTH;
 @property (nonatomic,assign,readonly) CGFloat SCREEN_HEIGHT;
 
-//默认安全区域
+//默认安全区域  屏幕高-状态栏
 @property (nonatomic,assign,readonly) CGFloat SAFE_AREA_HEIGHT;
 
 @end
